@@ -88,7 +88,7 @@ final public class CashUp {
                         return;
                     } else {
                         // We couldn't fully repay the current creditor, making this the first and final transaction for the
-                        // current debitor. Since we paid our debts (Our remaining debt is now a positive value), set remaining
+                        // current debtor. Since we paid our debts (Our remaining debt is now a positive value), set remaining
                         // debt to 0.0
                         print("Clearing debtor delta");
                         debtor.setDelta(0.0);
