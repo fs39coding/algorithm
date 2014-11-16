@@ -1,2 +1,2 @@
-algorithm
+Cash-up algorithm
 =========
